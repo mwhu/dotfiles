@@ -14,3 +14,6 @@ export XDG_STATE_HOME="${HOME}/.local/state"
 export ZSH="$HOME/.oh-my-zsh"
 export ZDOTDIR="$HOME"/.config/zsh
 export HISTFILE="${XDG_STATE_HOME}"/zsh/history
+
+source .config/.aliases
+
