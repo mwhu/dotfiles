@@ -1,0 +1,29 @@
+# Easier navigation: .., ..., ...., ....., ~ and -
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias -- -="cd -"
+alias cd="z" # bind zoxide to cd
+alias f="fzf" # fuzzy finder
+
+# Mapping
+bindkey -s '±' '~'
+bindkey -s '§' '`'
+
+# Shortcuts
+alias reload="source ~/.zshrc"
+alias g="git"
+alias dotz="nano ~/.zshrc"
+alias vim="nvim"
+alias vi="nvim"
+
+# Enable aliases to be sudo’ed
+alias sudo="sudo "
+
+# Copy working directory
+alias cwd="pwd | tr -d "\r\n" | xclip -selection clipboard"
+
+# configuration
+alias .alacritty="nano ~/.config/alacritty/alacritty.toml"
+alias .a="nano ~/.config/.aliases"
