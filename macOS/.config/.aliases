@@ -25,6 +25,6 @@ alias sudo="sudo "
 # Copy working directory
 alias cwd="pwd | tr -d "\r\n" | xclip -selection clipboard"
 
-# configuration
+# Configuration
 alias .alacritty="nano ~/.config/alacritty/alacritty.toml"
 alias .a="nano ~/.config/.aliases"
