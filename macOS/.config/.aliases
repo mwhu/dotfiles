@@ -19,6 +19,10 @@ alias vim="nvim"
 alias vi="nvim"
 alias v.="vim ."
 
+# Recursively remove .DS_Store files
+alias cleanupds="find . -type f -name '*.DS_Store' -ls -delete"
+
+
 # Enable aliases to be sudo’ed
 alias sudo="sudo "
 
