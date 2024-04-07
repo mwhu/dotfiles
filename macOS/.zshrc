@@ -16,4 +16,3 @@ export ZDOTDIR="$HOME"/.config/zsh
 export HISTFILE="${XDG_STATE_HOME}"/zsh/history
 
 source .config/.aliases
-
